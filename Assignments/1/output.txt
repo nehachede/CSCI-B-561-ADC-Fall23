@@ -1,0 +1,271 @@
+CREATE DATABASE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 8
+INSERT 0 19
+INSERT 0 15
+INSERT 0 5
+INSERT 0 37
+INSERT 0 13
+INSERT 0 63
+Problem 1
+Problem 1 conceptual example 1
+psql:/Users/nehachede/Downloads/Assignment1Script.sql:276: ERROR:  update or delete on table "company" violates foreign key constraint "worksfor_cname_fkey" on table "worksfor"
+DETAIL:  Key (cname)=(Apple) is still referenced from table "worksfor".
+Problem 1 conceptual example 2
+psql:/Users/nehachede/Downloads/Assignment1Script.sql:279: ERROR:  insert or update on table "knows" violates foreign key constraint "knows_pid1_fkey"
+DETAIL:  Key (pid1)=(1032) is not present in table "person".
+Problem 1 conceptual example 3
+ALTER TABLE
+INSERT 0 1
+Problem 1 conceptual example 4
+psql:/Users/nehachede/Downloads/Assignment1Script.sql:288: ERROR:  insert or update on table "personskill" violates foreign key constraint "personskill_skill_fkey"
+DETAIL:  Key (skill)=(ADC) is not present in table "skill".
+ALTER TABLE
+UPDATE 10
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 37
+INSERT 0 63
+Problem 2
+ pid  | pname 
+------+-------
+ 1005 | Megan
+(1 row)
+
+Problem 3
+  cname  
+---------
+ Amazon
+ Apple
+ Google
+ Netflix
+(4 rows)
+
+Problem 4
+ pid  
+------
+ 1001
+ 1002
+ 1004
+ 1010
+ 1011
+ 1017
+ 1018
+(7 rows)
+
+Problem 5
+ pid1 | pid2 
+------+------
+ 1007 | 1017
+ 1014 | 1015
+ 1006 | 1015
+ 1005 | 1015
+ 1010 | 1017
+ 1009 | 1010
+ 1014 | 1018
+ 1016 | 1018
+ 1009 | 1016
+ 1006 | 1014
+ 1005 | 1013
+ 1001 | 1014
+ 1005 | 1017
+ 1004 | 1017
+ 1011 | 1013
+ 1012 | 1017
+ 1007 | 1015
+ 1005 | 1012
+ 1005 | 1007
+ 1009 | 1011
+ 1014 | 1016
+ 1009 | 1013
+ 1013 | 1015
+ 1004 | 1005
+ 1001 | 1004
+ 1001 | 1002
+ 1013 | 1016
+ 1001 | 1006
+ 1002 | 1013
+ 1001 | 1013
+ 1002 | 1015
+ 1004 | 1012
+ 1002 | 1017
+ 1005 | 1019
+ 1004 | 1018
+ 1001 | 1011
+ 1010 | 1019
+ 1001 | 1017
+ 1006 | 1007
+ 1005 | 1009
+ 1001 | 1012
+ 1004 | 1011
+ 1004 | 1014
+ 1005 | 1011
+ 1002 | 1012
+ 1007 | 1009
+ 1002 | 1006
+ 1011 | 1012
+ 1009 | 1019
+ 1007 | 1016
+ 1012 | 1016
+ 1015 | 1018
+ 1002 | 1011
+ 1011 | 1019
+ 1012 | 1018
+ 1004 | 1006
+ 1013 | 1019
+ 1005 | 1006
+ 1004 | 1013
+ 1004 | 1015
+ 1002 | 1014
+ 1001 | 1016
+ 1001 | 1005
+ 1007 | 1013
+ 1006 | 1009
+ 1010 | 1014
+ 1013 | 1017
+ 1015 | 1016
+ 1014 | 1017
+ 1017 | 1019
+ 1009 | 1014
+ 1012 | 1013
+ 1005 | 1018
+ 1011 | 1017
+ 1011 | 1015
+ 1012 | 1014
+ 1005 | 1014
+ 1015 | 1017
+ 1001 | 1018
+ 1005 | 1016
+ 1005 | 1010
+ 1007 | 1012
+ 1002 | 1016
+ 1002 | 1007
+ 1011 | 1016
+ 1002 | 1004
+ 1006 | 1013
+ 1012 | 1015
+ 1006 | 1012
+ 1006 | 1011
+ 1004 | 1016
+ 1002 | 1018
+ 1014 | 1019
+ 1006 | 1016
+ 1002 | 1005
+ 1013 | 1014
+ 1004 | 1007
+ 1009 | 1012
+ 1011 | 1014
+ 1006 | 1017
+ 1011 | 1018
+ 1007 | 1011
+ 1001 | 1007
+ 1010 | 1013
+ 1001 | 1015
+ 1010 | 1011
+ 1009 | 1017
+ 1007 | 1014
+(108 rows)
+
+Problem 6
+ pid  | cname | salary 
+------+-------+--------
+ 1014 | Apple |  50000
+ 1018 | Apple |  50000
+(2 rows)
+
+Problem 7
+ mid  
+------
+ 1001
+(1 row)
+
+Problem 8
+  cname  | salary 
+---------+--------
+ Amazon  |  50000
+ Apple   |  45000
+ Google  |  60000
+ Netflix |  50000
+(4 rows)
+
+Problem 9
+ pid  | pname  |     city     
+------+--------+--------------
+ 1001 | Jean   | Cupertino
+ 1002 | Vidya  | Cupertino
+ 1004 | Qin    | Seattle
+ 1005 | Megan  | MountainView
+ 1008 | Emma   | Bloomington
+ 1013 | Lisa   | Indianapolis
+ 1014 | Deepa  | Bloomington
+ 1015 | Chris  | Denver
+ 1016 | YinYue | Chicago
+(9 rows)
+
+Problem 10
+ pid  | pname | cname  | salary 
+------+-------+--------+--------
+ 1008 | Emma  | Amazon |  50000
+(1 row)
+
+Problem 11
+ pid  
+------
+ 1013
+ 1017
+ 1002
+ 1011
+(4 rows)
+
+Problem 12
+  skill   
+----------
+ Networks
+(1 row)
+
+Problem 13
+ pid  | pname  
+------+--------
+ 1002 | Vidya
+ 1005 | Megan
+ 1006 | Ryan
+ 1009 | Hasan
+ 1010 | Linda
+ 1011 | Nick
+ 1014 | Deepa
+ 1016 | YinYue
+ 1017 | Latha
+ 1018 | Arif
+ 1019 | John
+(11 rows)
+
+Problem 18
+ manageatleast2 
+----------------
+ f
+(1 row)
+
+Problem 19
+ constraintsatisfied 
+---------------------
+ t
+(1 row)
+
+Problem 20
+ conditionnotsatisfied 
+-----------------------
+ f
+(1 row)
+
+DROP DATABASE

@@ -1,0 +1,363 @@
+CREATE DATABASE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 8
+INSERT 0 19
+INSERT 0 15
+INSERT 0 6
+INSERT 0 37
+INSERT 0 12
+TRUNCATE TABLE
+INSERT 0 85
+CREATE TABLE
+INSERT 0 14
+Problem-1a
+     c     |  p   |   s   
+-----------+------+-------
+ Amazon    | 1008 | 50000
+ Apple     | 1002 | 45000
+ Microsoft | 1019 | 50000
+ Netflix   | 1007 | 50000
+ Yahoo     | 1013 | 55000
+(5 rows)
+
+Problem-1b
+     c     |  p   |   s   
+-----------+------+-------
+ Amazon    | 1008 | 50000
+ Apple     | 1002 | 45000
+ Microsoft | 1019 | 50000
+ Netflix   | 1007 | 50000
+ Yahoo     | 1013 | 55000
+(5 rows)
+
+Problem-1c
+     c     |  p   |   s   
+-----------+------+-------
+ Amazon    | 1008 | 50000
+ Apple     | 1002 | 45000
+ Microsoft | 1019 | 50000
+ Netflix   | 1007 | 50000
+ Yahoo     | 1013 | 55000
+(5 rows)
+
+Problem-2a
+ pname | salary |   city    
+-------+--------+-----------
+ Chris |  60000 | Denver
+ Jean  |  65000 | Cupertino
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-2b
+ pname | salary |   city    
+-------+--------+-----------
+ Chris |  60000 | Denver
+ Jean  |  65000 | Cupertino
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-2c
+ pname | salary |   city    
+-------+--------+-----------
+ Chris |  60000 | Denver
+ Jean  |  65000 | Cupertino
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-3a
+    c1     |    c2     
+-----------+-----------
+ ACM       | Apple
+ ACM       | Google
+ ACM       | IBM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Yahoo
+ Apple     | ACM
+ Apple     | Google
+ Apple     | IBM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Yahoo
+ Google    | ACM
+ Google    | Apple
+ Google    | IBM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Yahoo
+ IBM       | ACM
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Yahoo
+ Microsoft | ACM
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | IBM
+ Microsoft | Netflix
+ Microsoft | Yahoo
+ Netflix   | ACM
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | IBM
+ Netflix   | Microsoft
+ Netflix   | Yahoo
+ Yahoo     | ACM
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | IBM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+(42 rows)
+
+Problem-3b
+    c1     |    c2     
+-----------+-----------
+ ACM       | Apple
+ ACM       | Google
+ ACM       | IBM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Yahoo
+ Apple     | ACM
+ Apple     | Google
+ Apple     | IBM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Yahoo
+ Google    | ACM
+ Google    | Apple
+ Google    | IBM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Yahoo
+ IBM       | ACM
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Yahoo
+ Microsoft | ACM
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | IBM
+ Microsoft | Netflix
+ Microsoft | Yahoo
+ Netflix   | ACM
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | IBM
+ Netflix   | Microsoft
+ Netflix   | Yahoo
+ Yahoo     | ACM
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | IBM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+(42 rows)
+
+Problem-3c
+   cname   |   cname   
+-----------+-----------
+ ACM       | Apple
+ ACM       | Google
+ ACM       | IBM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Yahoo
+ Apple     | ACM
+ Apple     | Google
+ Apple     | IBM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Yahoo
+ Google    | ACM
+ Google    | Apple
+ Google    | IBM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Yahoo
+ IBM       | ACM
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Yahoo
+ Microsoft | ACM
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | IBM
+ Microsoft | Netflix
+ Microsoft | Yahoo
+ Netflix   | ACM
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | IBM
+ Netflix   | Microsoft
+ Netflix   | Yahoo
+ Yahoo     | ACM
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | IBM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+(42 rows)
+
+Problem-4b
+     c     |  p   |   s   
+-----------+------+-------
+ Amazon    | 1008 | 50000
+ Apple     | 1002 | 45000
+ Microsoft | 1019 | 50000
+ Netflix   | 1007 | 50000
+ Yahoo     | 1013 | 55000
+(5 rows)
+
+Problem-5b
+ pname | salary |   city    
+-------+--------+-----------
+ Chris |  60000 | Denver
+ Jean  |  65000 | Cupertino
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-6b
+   cname   |   cname   
+-----------+-----------
+ ACM       | Apple
+ ACM       | Google
+ ACM       | IBM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Yahoo
+ Apple     | ACM
+ Apple     | Google
+ Apple     | IBM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Yahoo
+ Google    | ACM
+ Google    | Apple
+ Google    | IBM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Yahoo
+ IBM       | ACM
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Yahoo
+ Microsoft | ACM
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | IBM
+ Microsoft | Netflix
+ Microsoft | Yahoo
+ Netflix   | ACM
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | IBM
+ Netflix   | Microsoft
+ Netflix   | Yahoo
+ Yahoo     | ACM
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | IBM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+(42 rows)
+
+Problem 10
+SELECT 2
+ pid  
+------
+ 1001
+ 1015
+(2 rows)
+
+Problem 11
+CREATE FUNCTION
+ pid1 | pid2 
+------+------
+ 1003 | 1001
+ 1003 | 1002
+ 1003 | 1004
+ 1003 | 1005
+ 1003 | 1006
+ 1003 | 1007
+ 1003 | 1009
+ 1003 | 1010
+ 1003 | 1011
+ 1003 | 1012
+ 1003 | 1013
+ 1003 | 1014
+ 1003 | 1015
+ 1003 | 1016
+ 1003 | 1017
+ 1003 | 1018
+ 1003 | 1019
+(17 rows)
+
+Problem 12
+CREATE VIEW
+ n1 | n2 
+----+----
+  1 |  1
+  2 |  2
+  2 |  3
+  2 |  4
+  3 |  2
+  3 |  3
+  3 |  4
+  4 |  2
+  4 |  3
+  4 |  4
+  5 |  5
+  5 |  6
+  5 |  7
+  6 |  5
+  6 |  6
+  6 |  7
+  7 |  5
+  7 |  6
+  7 |  7
+  8 |  8
+  8 | 12
+  8 | 13
+  9 |  9
+  9 | 10
+  9 | 11
+  9 | 14
+ 10 |  9
+ 10 | 10
+ 10 | 11
+ 10 | 14
+ 11 |  9
+ 11 | 10
+ 11 | 11
+ 11 | 14
+ 12 |  8
+ 12 | 12
+ 12 | 13
+ 13 |  8
+ 13 | 12
+ 13 | 13
+ 14 |  9
+ 14 | 10
+ 14 | 11
+ 14 | 14
+ 15 | 15
+(45 rows)
+
+DROP DATABASE

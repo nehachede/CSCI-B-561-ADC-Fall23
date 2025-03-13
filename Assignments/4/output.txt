@@ -1,0 +1,472 @@
+CREATE DATABASE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 8
+INSERT 0 19
+INSERT 0 15
+INSERT 0 5
+INSERT 0 46
+INSERT 0 13
+INSERT 0 66
+
+
+Problem 1
+      c       |   pn   
+--------------+--------
+ Bloomington  | Hasan
+ Chicago      | Linda
+ Chicago      | Ryan
+ Chicago      | YinYue
+ Cupertino    | Jean
+ Denver       | Chris
+ Indianapolis | Lisa
+ LosGatos     | Latha
+ MountainView | Nick
+ NewYork      | John
+ Seattle      | Anna
+ Seattle      | Qin
+(12 rows)
+
+
+
+Problem 2
+ pid  | pname  
+------+--------
+ 1001 | Jean
+ 1002 | Vidya
+ 1003 | Anna
+ 1004 | Qin
+ 1008 | Emma
+ 1015 | Chris
+ 1016 | YinYue
+ 1018 | Arif
+(8 rows)
+
+
+
+Problem 3
+        s1        |        s2        
+------------------+------------------
+ AI               | AI
+ Databases        | Databases
+ Databases        | Networks
+ Networks         | Databases
+ Networks         | Networks
+ OperatingSystems | OperatingSystems
+ Programming      | Programming
+(7 rows)
+
+        s1        |        s2        
+------------------+------------------
+ AI               | AI
+ Databases        | Databases
+ Databases        | Networks
+ Networks         | Databases
+ Networks         | Networks
+ OperatingSystems | OperatingSystems
+ Programming      | Programming
+(7 rows)
+
+
+
+Problem 4
+ pid  
+------
+ 1004
+ 1010
+(2 rows)
+
+
+
+Problem 5
+ cname  
+--------
+ Amazon
+ Apple
+ Google
+(3 rows)
+
+
+
+Problem 6
+  cname  | salary 
+---------+--------
+ Google  |  70000
+ Amazon  |  55000
+ Yahoo   |       
+ Apple   |  45000
+ Netflix |  60000
+(5 rows)
+
+
+
+Problem 7
+
+
+7 (a)
+CREATE FUNCTION
+
+
+7 (b)
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1018 |  50000 |              1
+ 1001 |  65000 |              2
+ 1002 |  45000 |              2
+ 1009 |  60000 |              3
+ 1012 |  50000 |              3
+ 1014 |  50000 |              4
+(6 rows)
+
+
+
+7 (b)
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1003 |  55000 |              0
+ 1008 |  50000 |              0
+ 1004 |  55000 |              2
+ 1010 |  55000 |              2
+ 1015 |  60000 |              2
+ 1016 |  55000 |              2
+ 1006 |  55000 |              3
+(7 rows)
+
+
+
+7 (b)
+ pid | salary | numberofskills 
+-----+--------+----------------
+(0 rows)
+
+
+
+7 (c)
+CREATE FUNCTION
+
+
+7 (d)
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1018 |  50000 |              1
+ 1001 |  65000 |              2
+ 1002 |  45000 |              2
+ 1009 |  60000 |              3
+ 1012 |  50000 |              3
+ 1014 |  50000 |              4
+(6 rows)
+
+
+
+7 (d)
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1003 |  55000 |              0
+ 1008 |  50000 |              0
+ 1004 |  55000 |              2
+ 1010 |  55000 |              2
+ 1015 |  60000 |              2
+ 1016 |  55000 |              2
+ 1006 |  55000 |              3
+(7 rows)
+
+
+
+7 (d)
+ pid | salary | numberofskills 
+-----+--------+----------------
+(0 rows)
+
+
+
+7 (e)
+    c    |  p   
+---------+------
+ Amazon  | 1006
+ Google  | 1011
+ Netflix | 1017
+ Yahoo   | 1013
+(4 rows)
+
+
+
+Problem 8
+ pid  | pname  
+------+--------
+ 1003 | Anna
+ 1006 | Ryan
+ 1016 | YinYue
+ 1018 | Arif
+(4 rows)
+
+
+
+Problem 9
+THIS WILL ALSO CONTAIN THE COMPANIES WHICH DO NOT HAVE ANY MANAGERS EMPLOYED.
+   cname   
+-----------
+ ACM
+ Google
+ IBM
+ Microsoft
+ Yahoo
+(5 rows)
+
+
+
+Problem 10
+ pid  | pname 
+------+-------
+ 1008 | Emma
+(1 row)
+
+
+
+Problem 11
+ cname  
+--------
+ Amazon
+(1 row)
+
+
+
+Problem 12
+CREATE FUNCTION
+  p1  |  p2  
+------+------
+ 1001 | 1010
+ 1015 | 1002
+ 1015 | 1004
+ 1016 | 1007
+ 1019 | 1004
+ 1004 | 1010
+ 1010 | 1002
+ 1016 | 1001
+ 1004 | 1002
+ 1002 | 1007
+ 1004 | 1007
+ 1001 | 1015
+ 1014 | 1013
+ 1007 | 1001
+ 1019 | 1002
+ 1016 | 1019
+ 1006 | 1012
+ 1013 | 1014
+ 1005 | 1013
+ 1015 | 1001
+ 1010 | 1004
+ 1016 | 1004
+ 1004 | 1001
+ 1016 | 1002
+ 1016 | 1010
+ 1015 | 1007
+ 1002 | 1019
+ 1015 | 1019
+ 1012 | 1009
+ 1017 | 1012
+ 1001 | 1016
+ 1002 | 1016
+ 1016 | 1015
+ 1017 | 1006
+ 1005 | 1014
+ 1001 | 1007
+ 1019 | 1016
+ 1019 | 1001
+ 1012 | 1006
+ 1015 | 1016
+ 1014 | 1005
+ 1007 | 1010
+ 1010 | 1007
+ 1004 | 1019
+ 1009 | 1017
+ 1015 | 1010
+ 1012 | 1017
+ 1001 | 1002
+ 1007 | 1019
+ 1004 | 1015
+ 1007 | 1016
+ 1019 | 1010
+ 1006 | 1009
+ 1007 | 1004
+ 1006 | 1017
+ 1001 | 1004
+ 1002 | 1015
+ 1002 | 1004
+ 1004 | 1016
+ 1010 | 1016
+ 1002 | 1010
+ 1013 | 1005
+ 1009 | 1006
+ 1007 | 1015
+ 1010 | 1001
+ 1007 | 1002
+ 1019 | 1015
+ 1017 | 1009
+ 1010 | 1015
+ 1019 | 1007
+ 1002 | 1001
+ 1010 | 1019
+ 1001 | 1019
+ 1009 | 1012
+(74 rows)
+
+
+
+Problem 13
+CREATE FUNCTION
+CREATE TRIGGER
+psql:/Users/nehachede/Documents/01_Fall23/01_Advanced_Database_Concepts/Assignments/4/assgn4.sql:592: ERROR:  Company name, Apple, ALREADY EXISTS IN COMPANY TABLE
+CONTEXT:  PL/pgSQL function comp_pkey_const() line 4 at RAISE
+
+Problem 14
+CREATE FUNCTION
+CREATE TRIGGER
+psql:/Users/nehachede/Documents/01_Fall23/01_Advanced_Database_Concepts/Assignments/4/assgn4.sql:621: ERROR:  REFERENTIAL INTEGRITY CONSTRAINT: PID 1030 DOES NOT EXIST IN PERSON TABLE
+CONTEXT:  PL/pgSQL function worksfor_fkey_const() line 4 at RAISE
+DROP TRIGGER
+DROP TRIGGER
+
+
+Problem 15
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE FUNCTION
+CREATE TRIGGER
+CREATE FUNCTION
+CREATE TRIGGER
+INSERT 0 1
+INSERT 0 1
+ a  
+----
+ 15
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+ a  
+----
+ 15
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+ a  
+----
+ 15
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+  a  
+-----
+  15
+ 101
+(2 rows)
+
+DROP TABLE
+DROP TABLE
+DROP TABLE
+
+
+Problem 16
+CREATE FUNCTION
+CREATE TRIGGER
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+ pid | skill 
+-----+-------
+(0 rows)
+
+ pid  |      skill       
+------+------------------
+ 2002 | AI
+ 2002 | Databases
+ 2002 | Networks
+ 2002 | OperatingSystems
+ 2002 | Programming
+ 2002 | Devops
+(6 rows)
+
+ pid  |      skill       
+------+------------------
+ 2003 | AI
+ 2003 | Databases
+ 2003 | Networks
+ 2003 | OperatingSystems
+ 2003 | Programming
+ 2003 | Cloud
+(6 rows)
+
+ pid  | skill  
+------+--------
+ 2004 | Design
+(1 row)
+
+ pid | skill 
+-----+-------
+(0 rows)
+
+DELETE 13
+DELETE 3
+DELETE 5
+DELETE 5
+DROP TRIGGER
+
+
+Problem 17
+DROP TABLE
+CREATE TABLE
+INSERT 0 66
+CREATE FUNCTION
+CREATE TRIGGER
+SELECT 66
+CREATE FUNCTION
+UPDATE 1
+ pid1 | pid2 
+------+------
+ 1005 | 1015
+ 1005 | 1001
+ 1005 | 1012
+(3 rows)
+
+ retain_data 
+-------------
+ 
+(1 row)
+
+UPDATE 1
+ pid1 | pid2 
+------+------
+ 1012 | 1011
+ 1012 | 1005
+(2 rows)
+
+ retain_data 
+-------------
+ 
+(1 row)
+
+DROP TABLE
+DROP DATABASE

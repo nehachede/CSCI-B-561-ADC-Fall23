@@ -1,0 +1,322 @@
+CREATE DATABASE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 8
+INSERT 0 19
+INSERT 0 15
+INSERT 0 5
+INSERT 0 46
+INSERT 0 66
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+
+
+Problem 1
+  cname  | headquarter  
+---------+--------------
+ Amazon  | Seattle
+ Apple   | Cupertino
+ Google  | MountainView
+ Netflix | LosGatos
+(4 rows)
+
+
+
+Problem 2
+ pid  |  pname   |     persons      
+------+----------+------------------
+ 1001 | Jean     | {1002}
+ 1002 | Vidya    | {1004,1015}
+ 1003 | Anna     | {1004,1006,1015}
+ 1004 | Qin      | {1006,1016,1018}
+ 1005 | Megan    | {1015}
+ 1006 | Ryan     | {1016}
+ 1007 | Danielle | {1018}
+ 1008 | Emma     | {1001}
+ 1009 | Hasan    | {1018}
+ 1010 | Linda    | {1018}
+ 1011 | Nick     | {1002,1012,1015}
+ 1012 | Eric     | {1001,1004}
+ 1013 | Lisa     | {1004,1018}
+ 1014 | Deepa    | {1001,1002,1004}
+ 1015 | Chris    | {1002,1016}
+ 1016 | YinYue   | {}
+ 1017 | Latha    | {}
+ 1018 | Arif     | {1015}
+ 1019 | John     | {1001,1004}
+(19 rows)
+
+
+
+Problem 3
+ pid  | pname 
+------+-------
+ 1011 | Nick
+(1 row)
+
+
+
+Problem 4
+ companies 
+-----------
+ {Amazon}
+(1 row)
+
+
+
+Problem 5
+                      skills                       
+---------------------------------------------------
+ {}
+ {AI}
+ {AI,Databases}
+ {AI,Databases,Networks}
+ {AI,Databases,Networks,OperatingSystems}
+ {AI,Databases,Networks,Programming}
+ {AI,Databases,OperatingSystems}
+ {AI,Databases,OperatingSystems,Programming}
+ {AI,Databases,Programming}
+ {AI,Networks}
+ {AI,Networks,OperatingSystems}
+ {AI,Networks,OperatingSystems,Programming}
+ {AI,Networks,Programming}
+ {AI,OperatingSystems}
+ {AI,OperatingSystems,Programming}
+ {AI,Programming}
+ {Databases}
+ {Databases,Networks}
+ {Databases,Networks,OperatingSystems}
+ {Databases,Networks,OperatingSystems,Programming}
+ {Databases,Networks,Programming}
+ {Databases,OperatingSystems}
+ {Databases,OperatingSystems,Programming}
+ {Databases,Programming}
+ {Networks}
+ {Networks,OperatingSystems}
+ {Networks,OperatingSystems,Programming}
+ {Networks,Programming}
+ {OperatingSystems}
+ {OperatingSystems,Programming}
+ {Programming}
+(31 rows)
+
+
+
+Problem 6
+ERROR:  cannot cast type text[] to set_s
+LINE 17: ...t distinct add_element(array[s1.skills, s2.skills]::set_s)::...
+                                                              ^ 
+
+Problem 7
+CREATE FUNCTION
+              pair              
+--------------------------------
+ {AI,Databases}
+ {AI,Networks}
+ {AI,OperatingSystems}
+ {AI,Programming}
+ {Databases,Networks}
+ {Databases,OperatingSystems}
+ {Databases,Programming}
+ {Networks,OperatingSystems}
+ {Networks,Programming}
+ {OperatingSystems,Programming}
+(10 rows)
+
+              pair              
+--------------------------------
+ {AI,OperatingSystems}
+ {AI,Programming}
+ {Databases,Networks}
+ {Databases,OperatingSystems}
+ {Databases,Programming}
+ {Networks,OperatingSystems}
+ {Networks,Programming}
+ {OperatingSystems,Programming}
+(8 rows)
+
+         pair         
+----------------------
+ {AI,Programming}
+ {Databases,Networks}
+(2 rows)
+
+         pair         
+----------------------
+ {Databases,Networks}
+(1 row)
+
+         pair         
+----------------------
+ {Databases,Networks}
+(1 row)
+
+CREATE TABLE
+INSERT 0 6
+CREATE TABLE
+INSERT 0 5
+CREATE TABLE
+INSERT 0 14
+
+
+Problem 8
+DROP TYPE
+DROP TYPE
+CREATE TYPE
+CREATE TYPE
+CREATE VIEW
+ cno  |                             gradeinfo                             
+------+-------------------------------------------------------------------
+ c200 | {"(A,\"{(s100)}\")","(B,\"{(s101),(s102)}\")"}
+ c201 | {"(A,\"{(s101),(s103)}\")","(B,\"{(s100)}\")","(D,\"{(s104)}\")"}
+ c202 | {"(A,\"{(s100),(s101),(s102)}\")"}
+ c301 | {"(B,\"{(s102)}\")","(C,\"{(s101)}\")"}
+ c302 | {"(A,\"{(s101),(s102)}\")"}
+(5 rows)
+
+
+
+Problem 9
+ sid  |           array_agg           
+------+-------------------------------
+ s100 | {(c200),(c201),(c202)}
+ s101 | {(c200),(c201),(c202),(c302)}
+ s102 | {(c200),(c202),(c301),(c302)}
+ s103 | {(c201)}
+(4 rows)
+
+
+
+Problem 10
+CREATE VIEW
+                                                                                       coursegradeinfo                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"cno": "c200", "gradeInfo": [{"grade": "A", "students": [{"sid": "s100"}]}, {"grade": "B", "students": [{"sid": "s101"}, {"sid": "s102"}]}]}
+ {"cno": "c201", "gradeInfo": [{"grade": "A", "students": [{"sid": "s101"}, {"sid": "s103"}]}, {"grade": "B", "students": [{"sid": "s100"}]}, {"grade": "D", "students": [{"sid": "s104"}]}]}
+ {"cno": "c202", "gradeInfo": [{"grade": "A", "students": [{"sid": "s100"}, {"sid": "s101"}, {"sid": "s102"}]}]}
+ {"cno": "c301", "gradeInfo": [{"grade": "B", "students": [{"sid": "s102"}]}, {"grade": "C", "students": [{"sid": "s101"}]}]}
+ {"cno": "c302", "gradeInfo": [{"grade": "A", "students": [{"sid": "s101"}, {"sid": "s102"}]}]}
+(5 rows)
+
+
+
+Problem 11
+    set_union    |      array      
+-----------------+-----------------
+ {(c200),(c201)} | {}
+ {(c200),(c202)} | {(s100)}
+ {(c200),(c301)} | {}
+ {(c200),(c302)} | {}
+ {(c201),(c202)} | {(s101)}
+ {(c201),(c301)} | {}
+ {(c201),(c302)} | {(s101)}
+ {(c202),(c301)} | {}
+ {(c202),(c302)} | {(s101),(s102)}
+ {(c301),(c302)} | {}
+(10 rows)
+
+
+
+Problem 12
+CREATE FUNCTION
+    csum    
+------------
+ {1,3,6,10}
+(1 row)
+
+
+
+Problem 13
+CREATE FUNCTION
+                   primes                   
+--------------------------------------------
+ {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47}
+(1 row)
+
+
+
+Problem 14
+CREATE TABLE
+INSERT 0 11
+CREATE TABLE
+CREATE FUNCTION
+CREATE FUNCTION
+ samegeneration 
+----------------
+ 
+(1 row)
+
+ m  | n  
+----+----
+  1 |  1
+  2 |  2
+  2 |  3
+  2 |  4
+  3 |  2
+  3 |  3
+  3 |  4
+  4 |  2
+  4 |  3
+  4 |  4
+  5 |  5
+  5 |  6
+  5 |  7
+  5 |  8
+  6 |  5
+  6 |  6
+  6 |  7
+  6 |  8
+  7 |  5
+  7 |  6
+  7 |  7
+  7 |  8
+  8 |  5
+  8 |  6
+  8 |  7
+  8 |  8
+  9 |  9
+  9 | 10
+  9 | 11
+ 10 |  9
+ 10 | 10
+ 10 | 11
+ 11 |  9
+ 11 | 10
+ 11 | 11
+ 12 | 12
+(36 rows)
+
+DROP TABLE
+DROP DATABASE

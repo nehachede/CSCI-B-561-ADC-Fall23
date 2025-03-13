@@ -1,0 +1,55 @@
+CREATE DATABASE
+DROP SCHEMA
+CREATE SCHEMA
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 8
+INSERT 0 19
+INSERT 0 15
+INSERT 0 6
+INSERT 0 37
+INSERT 0 12
+INSERT 0 66
+
+Problem 5
+ cname | headquarter 
+-------+-------------
+ Apple | Cupertino
+(1 row)
+
+Problem 6;
+ cname  | headquarter  
+--------+--------------
+ Google | MountainView
+ Yahoo  | Sunnyvale
+(2 rows)
+
+Problem 7;
+ pid  |     city     
+------+--------------
+ 1009 | Bloomington
+ 1012 | Cupertino
+ 1013 | Indianapolis
+ 1017 | LosGatos
+(4 rows)
+
+Problem 8;
+   cname   
+-----------
+ Microsoft
+(1 row)
+
+Problem 9;
+ pid  
+------
+ 1001
+(1 row)
+
+DROP DATABASE
